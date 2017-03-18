@@ -120,11 +120,9 @@ a.btn-default:hover, a.btn-default:focus { background-color: #FFFFFF; color: #FF
 a.btn-default:hover:after { width: 100%; }
 
 
-
-
-
-
+/* RESUME and PAGE */
 a:focus { outline: none !important; }
+a:hover { outline: none !important; text-decoration: none;}
 #page {
     padding-top: 12%;
     margin: 25px;
@@ -158,5 +156,4 @@ a:focus { outline: none !important; }
     #page {padding-top: 10%;}
     #resume { margin-top: 5%; padding-top: 5%; }
 }
-
 

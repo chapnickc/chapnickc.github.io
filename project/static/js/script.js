@@ -6,3 +6,5 @@ $(document).ready(function(){
 		$(this).addClass('selected');
     	});
 });
+
+(function() {}).call(this);
