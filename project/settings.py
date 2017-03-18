@@ -16,23 +16,24 @@ def parent_dir(path):
 
 PROJECT_ROOT = parent_dir(APP_DIR)
 
+# In order to deploy to Github pages, you must build 
+# the static files to the project root
+FREEZER_DESTINATION = PROJECT_ROOT
+
+# Since this is a repo page (not a Github user page),
+# we need to set the BASE_URL to the correct url as per GH Pages' standards
+FREEZER_BASE_URL = "http://localhost/{0}".format(REPO_NAME)
+
+
 # tell python to look for .md files in ./pages
 FLATPAGES_ROOT = os.path.join(APP_DIR, 'pages')
 FLATPAGES_EXTENSION = '.md'
 FLATPAGES_MARKDOWN_EXTENSIONS = ['codehilite','fenced_code','mdx_math']
 
-# In order to deploy to Github pages, you must build 
-# the static files to the project root
-FREEZER_DESTINATION = PROJECT_ROOT
-
 
 # IMPORTANT: If this is True, all app files
 # will be deleted when you run the freezer
 FREEZER_REMOVE_EXTRA_FILES = False
-
-# Since this is a repo page (not a Github user page),
-# we need to set the BASE_URL to the correct url as per GH Pages' standards
-FREEZER_BASE_URL = "http://localhost/{0}".format(REPO_NAME)
 
 
 
