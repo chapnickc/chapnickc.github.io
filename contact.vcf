@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iPhone OS 16.8//EN
+N:Chapnick;Chad;;;
+FN:Chad Chapnick
+ORG:Cadre Forensics;
+EMAIL;type=INTERNET;type=HOME;type=pref:chapnickc@gmail.com
+TEL;type=CELL;type=VOICE;type=pref:(312) 488-9719
+item1.URL;type=pref:chapnickc.github.io
+item1.X-ABLabel:_$!<HomePage>!$_
+END:VCARD
