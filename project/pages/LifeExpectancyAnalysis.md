@@ -10,9 +10,5 @@ abstract: |
 
 ---
 
-
-
-<center>
-<embed src="{{ url_for('static', filename='pdf/LifeExpectancy.pdf') }}" width="90%" height="800px">
-</center>
+<iframe src="http://docs.google.com/gview?url=https://github.com/chapnickc/chapnickc.github.io/raw/master/static/pdf/EchoRemoval.pdf&embedded=true" style="width:350px; height:500px;" frameborder="0"></iframe>
 

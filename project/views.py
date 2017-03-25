@@ -2,8 +2,6 @@ from flask import render_template, Markup
 from .app import app, pages
 from flask_flatpages import pygments_style_defs
 
-
-
 @app.route('/')
 def home():
     posts = [page for page in pages if 'date' in page.meta]
@@ -17,7 +15,6 @@ def home():
 def resume():
     return render_template('resume.html')
 
-
 @app.route('/<path:path>/')
 def page(path):
     # path is the filename of a page, without the file extension
@@ -29,3 +26,4 @@ def page(path):
 @app.route('/pygments.css')
 def pygments_css():
     return pygments_style_defs('tango'), 200, {'Content-Type': 'text/css'}
+

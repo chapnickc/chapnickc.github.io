@@ -62,8 +62,14 @@ h6 {font-family: 'Montserrat', serif; font-weight: 400; font-size: 30px; color: 
 
   
 /*--- HOME ---*/
-#home { background: url('https://s26.postimg.org/l6hkdklex/woods.jpg') no-repeat center center fixed;
-  background-size: cover; text-shadow: 1px 1px 0 rgba(255,255,255,0.5); text-align: center;
+#home {
+    background: url('https://usersthink.com/wp-content/uploads/75-usersthink-stock-image.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.5); 
+    text-align: center;
 }
 
 #home h1 { font-family: 'Advent Pro', sans-serif; font-size: 80px; /*font-weight: 400;*/ 
@@ -73,6 +79,7 @@ h6 {font-family: 'Montserrat', serif; font-weight: 400; font-size: 30px; color: 
 #home h1:after { border-bottom: 1px solid #AAA;  }
 
 #home h5 {font-family: 'Advent Pro', sans-serif; font-size: 16px; color: #555; }
+
 
 @media screen and (min-width: 768px) {
   #home h1 { font-size: 120px; line-height: 114px; }
@@ -90,6 +97,8 @@ h6 {font-family: 'Montserrat', serif; font-weight: 400; font-size: 30px; color: 
 }
 
 /*--- PORTFOLIO ---*/
+#abstract a:link, #abstract a:visited, #abstract a:hover, #abstract a:active { text-decoration: none; }
+
 .content-section .thumbnail { position: relative; overflow: hidden; cursor: pointer; }
 .content-section .thumbnail * { transition: all .25s; }
 .content-section .thumbnail h4 { font-size: 19px; font-weight: 400; }
@@ -99,14 +108,19 @@ h6 {font-family: 'Montserrat', serif; font-weight: 400; font-size: 30px; color: 
 .content-section .thumbnail:after { font-family: 'FontAwesome'; content: '\f121'; color: #FFF; font-size: 48px; line-height: 80px; top: 70%; position: absolute; text-align: center; display: inline-block; width: 100%; transition: all .35s; opacity: 0; width: 86px; height: 86px; margin-left: auto; margin-right: auto; left: 0; right: 0; border-radius: 50%; background: transparent; border:3px solid transparent; }
 .content-section .thumbnail:hover:after { top: 25%; opacity: 1; color: #FFFFFF; background: #AF6204; border:3px solid #FFFFFF; }
 
-#abstract a:link, #abstract a:visited, #abstract a:hover, #abstract a:active { text-decoration: none; }
+
 
 
 /*--- CONTACT ---*/
-#contact {
-  background: url('https://i.imgur.com/6eMdtD4.jpg') no-repeat top center fixed;
-  background-size: cover;
+#contact { 
+    background: url('https://usersthink.com/wp-content/uploads/17-usersthink-stock-image.jpg') no-repeat top center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
 }
+
+
 
 .social-cont { max-width: 400px; }
 a.btn-default { height: 44px; border-radius: 0; border: 0; width: 180px; text-align: left; margin: 0 5px 10px 0; position: relative; background-color: #FFFFFF; padding: 10px; transition: all .35s; padding: 0; line-height: 47px; overflow: hidden; }
@@ -120,40 +134,26 @@ a.btn-default:hover, a.btn-default:focus { background-color: #FFFFFF; color: #FF
 a.btn-default:hover:after { width: 100%; }
 
 
-/* RESUME and PAGE */
+/*--- RESUME and PAGE ---*/
 a:focus { outline: none !important; }
 a:hover { outline: none !important; text-decoration: none;}
-#page {
-    padding-top: 12%;
-    margin: 25px;
-}
+#page { padding-top: 12%; margin: 25px; }
+#resume { background-size: cover; margin-top: 10%}
 
-#resume { background-size: cover;}
-
-@media screen and (min-width: 200px) {
+@media screen and (min-width: 1200px) {
     #page {padding-top: 10%;}
-    #resume { margin-top: 10%; padding-top: 10%; }
-}
-
-@media screen and (min-width: 350px) {
-    #page {padding-top: 10%;}
-    #resume { margin-top: 7%; padding-top: 5%; }
-}
-
-
-
-@media screen and (min-width: 768px) {
-    #page {padding-top: 10%;}
-    #resume { margin-top: 7%; padding-top: 5%; }
+    /*#resume { margin-top: 5%; padding-top: 5%; }*/
 }
 
 @media screen and (min-width: 992px) {
     #page {padding-top: 10%;}
-    #resume { margin-top: 7%; padding-top: 5%; }
+    /*#resume { margin-top: 7%; padding-top: 5%; }*/
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
     #page {padding-top: 10%;}
-    #resume { margin-top: 5%; padding-top: 5%; }
+    /*#resume { margin-top: 7%; padding-top: 5%; }*/
 }
+
+
 

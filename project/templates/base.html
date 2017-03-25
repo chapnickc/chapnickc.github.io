@@ -12,6 +12,7 @@
     <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700,400italic|Montserrat:400,700|Cardo:400italic|Advent+Pro:100'> 
     <link rel='stylesheet' href='{{ url_for('static',filename='css/style.css') }}'>
 
+
   <!-- MathJax Config -->
     <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
     <script type="text/x-mathjax-config">MathJax.Hub.Config({
@@ -65,11 +66,11 @@
 
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li><a href="{{url_for('home')}}/#home" {% if active is defined %}class="scroll"{% endif %}>HOME</a></li>
-          <li><a href="{{ url_for('home')  }}/#about" {% if active is defined %}class="scroll"{% endif %}>ABOUT</a></li>
-          <li><a href="{{ url_for('home')  }}/#portfolio" {% if active is defined %}class="scroll"{% endif %}>PORTFOLIO</a></li>
-          <li><a href="{{ url_for('home')  }}/#contact" {% if active is defined %}class="scroll"{% endif %}>CONTACT</a></li>
-          <li><a href="{{ url_for('resume') }}" >RESUME</a></li>
+          <li><a href="{{ url_for('home') }}/#home" {% if active is defined %}class="scroll"{% endif %}>HOME</a></li>
+          <li><a href="{{ url_for('home') }}/#about" {% if active is defined %}class="scroll"{% endif %}>ABOUT</a></li>
+          <li><a href="{{ url_for('home') }}/#portfolio" {% if active is defined %}class="scroll"{% endif %}>PORTFOLIO</a></li>
+          <li><a href="{{ url_for('home') }}/#contact" {% if active is defined %}class="scroll"{% endif %}>CONTACT</a></li>
+          <li><a href="{{ url_for('resume') }}">RESUME</a></li>
         </ul>
       </div>
     </div> <!-- end container -->
@@ -79,6 +80,7 @@
   <div class="{% block content_class %}container-section{% endblock content_class %}">
     <div class="content" role="main">{% block content %}{% endblock %}</div>
   </div><!-- end container -->
+
 </body>
 </html>
 

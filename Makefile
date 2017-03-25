@@ -8,6 +8,7 @@ clean:
 	rm -rf ./iOS-BLE-Monitor
 	rm -rf ./LifeExpectancyAnalysis
 	rm -rf ./nRF51-Firmware
+	rm -rf ./Include-Guards
 	rm -rf ./resume
 	rm -rf ./static
 	rm  ./pygments.css
