@@ -1,8 +1,8 @@
 <br>
 
-## Repository Overview
-
 Last Updated: 2017-03-15
+
+## Repository Overview
 
 Repository: [chapnickc/Epilepsy-Monitor-FW](https://github.com/chapnickc/Epilepsy-Monitor-FW)
 

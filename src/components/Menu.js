@@ -42,7 +42,7 @@ export default class Menu extends React.Component {
 			</ListGroup>
 
 			<Card.Body>
-				<Card.Link href="https:/github.com/chapnickc" target="_blank">Github</Card.Link>
+        <Card.Link href="https://github.com/chapnickc" target="_blank">Github</Card.Link>
 				<Card.Link href="https://www.linkedin.com/in/chadchapnick" target="_blank">Linked In</Card.Link>
 			</Card.Body>
 
