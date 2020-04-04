@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Menu from './components/Menu.js';
 import Welcome from './components/Welcome.js';
+import Projects from './components/Projects.js';
 
 
 function App() 
@@ -18,7 +19,8 @@ function App()
           <Menu/> 
         </Col>
         <Col md={{span: 5, offset: 0}} className="App-main-content">
-          <Welcome/>
+          <Row> <Welcome/> </Row>
+          <Row> <Projects/> </Row>
         </Col>
       </Row>
     </Container>

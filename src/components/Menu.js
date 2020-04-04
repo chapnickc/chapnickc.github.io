@@ -6,20 +6,21 @@ import logo from '../logo.svg';
 
 export default class Menu extends React.Component {
 	render(){
+    //<ListGroup.Item>
+    //  <Card.Link href="#" className="Menu-item">Blogs</Card.Link>
+    //  <Card.Text className="text-muted">For some reading</Card.Text>
+    //</ListGroup.Item>
+
 		return (
 			<Card className="Menu">
 				<Card.Body> 
-					<Card.Title className="Menu-full-name">Chad Chapnick</Card.Title> 
+          <Card.Link href="#" className="Menu-full-name">  Chad Chapnick</Card.Link> 
 				</Card.Body>
 
 				<ListGroup variant="flush" className="Menu-list">
 					<ListGroup.Item>
 						<Card.Link href="#" className="Menu-item">Projects</Card.Link>
 						<Card.Text className="text-muted">That might interest you</Card.Text>
-					</ListGroup.Item>
-					<ListGroup.Item>
-						<Card.Link href="#" className="Menu-item">Blogs</Card.Link>
-						<Card.Text className="text-muted">For some reading</Card.Text>
 					</ListGroup.Item>
 					<ListGroup.Item>
 						<Card.Link href="#" className="Menu-item">Papers</Card.Link>

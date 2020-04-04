@@ -3,6 +3,10 @@ html, body {
   background-color: #202020;
 }
 
+pre, h1 {
+  color: #f0f0f0
+}
+
 .Menu {
   background-color: #1e1e1e;
   color: #f0f0f0;
@@ -25,6 +29,10 @@ html, body {
   color: #1a8cff;
 }
 
+.Project-image {
+  max-width: 100%;
+}
+
 /*.card-link:hover { color: #ffc000; }*/
 
 
@@ -32,12 +40,16 @@ html, body {
   background-color: #202020;
   color: #f0f0f0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 5vh;
 }
 
-.Main-title {
+
+.Main-title, .card-title {
   font-size:  calc(20px + 2vmin);
   color: #f0f0f0;
 }
+
+
 
 
 
