@@ -1,37 +1,48 @@
-.Menu {
-  margin-bottom: 5vh;
+
+html, body {
+  background-color: #202020;
 }
 
-.Menu-item {
-  color: red;
+.Menu {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  margin-bottom: 5vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Menu > .card, .list-group, .list-group-item {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
 }
 
 .Menu-full-name {
   font-size:  calc(15px + 2vmin);
   margin-bottom: 0px;
-  color: green;
+  color:  #f0f0f0;
 }
 
-.Card-title {
+.card-link {
+  color: #1a8cff;
+}
+
+/*.card-link:hover { color: #ffc000; }*/
+
+
+.Main {
+  background-color: #202020;
+  color: #f0f0f0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Main-title {
   font-size:  calc(20px + 2vmin);
+  color: #f0f0f0;
 }
 
 
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
+
 
 .App-logo {
   display: inline;
