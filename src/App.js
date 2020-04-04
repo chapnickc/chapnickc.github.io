@@ -1,37 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Menu from './components/Menu.js';
-
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
+import Menu from './components/Menu.js';
+import Welcome from './components/Welcome.js';
 
-function App() {
+
+function App() 
+{
 
   return (
-    <Container fluid className="App">
+    <Container fluid className="App mt-5 mb-5">
       <Row>
-        <Col md={true}>
-          <Menu/>
-
-          <Container>
-            <p>Built using React
-            <img src={logo} className="App-logo" alt="logo" />
-            </p>
-          </Container>
+        <Col md={{span: 3, offset: 2}}> 
+          <Menu/> 
         </Col>
-
-        <Col className="App-main-content">
-          <Container>
-            <p>Some jibber jabber</p>
-          </Container>
+        <Col md={{span: 5, offset: 0}} className="App-main-content">
+          <Welcome/>
         </Col>
-
       </Row>
-
     </Container>
   );
 }

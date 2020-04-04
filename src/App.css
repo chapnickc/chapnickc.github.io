@@ -1,14 +1,22 @@
-html, body, div {
-  background-color: #282c34;
+.Menu {
+  margin-bottom: 5vh;
 }
 
-h1, p {
-  color: white;
+.Menu-item {
+  color: red;
 }
 
-.App {
-  background-color: #282c34;
+.Menu-full-name {
+  font-size:  calc(15px + 2vmin);
+  margin-bottom: 0px;
+  color: green;
 }
+
+.Card-title {
+  font-size:  calc(20px + 2vmin);
+}
+
+
 
 .App-header {
   background-color: #282c34;
@@ -27,9 +35,8 @@ h1, p {
 
 .App-logo {
   display: inline;
-
-  height: 5vmin;
-  pointer-events: none;
+  height: 4vmin;
+  /*pointer-events: none;*/
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -47,19 +54,5 @@ h1, p {
   }
 }
 
-
-
-
-
-/*.App-main-content {*/
-  /*background-color: #282c34;*/
-  /*min-height: 100vh;*/
-  /*display: flex;*/
-  /*flex-direction: column;*/
-  /*align-items: center;*/
-  /*justify-content: center;*/
-  /*font-size: calc(10px + 2vmin);*/
-  /*color: white;*/
-/*}*/
 
 
