@@ -1,57 +1,67 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
-
+import Link from 'react-router-dom/Link';
 import logo from '../logo.svg';
 
 export default class Menu extends React.Component {
-	render(){
-    //<ListGroup.Item>
-    //  <Card.Link href="#" className="Menu-item">Blogs</Card.Link>
-    //  <Card.Text className="text-muted">For some reading</Card.Text>
-    //</ListGroup.Item>
+  //<ListGroup.Item>
+  //  <Card.Link href="#" className="Menu-item">Blogs</Card.Link>
+  //  <Card.Text className="text-muted">For some reading</Card.Text>
+  //</ListGroup.Item>
+  render() {
+    return (
+      <Card className="Menu">
 
-		return (
-			<Card className="Menu">
-				<Card.Body> 
-          <Card.Link href="#" className="Menu-full-name">  Chad Chapnick</Card.Link> 
-				</Card.Body>
+        <Card.Body> 
+          <Card.Link className="Menu-full-name">
+            <Link to="/"> Chad Chapnick </Link>
+          </Card.Link> 
+        </Card.Body>
 
-				<ListGroup variant="flush" className="Menu-list">
-					<ListGroup.Item>
-						<Card.Link href="#" className="Menu-item">Projects</Card.Link>
-						<Card.Text className="text-muted">That might interest you</Card.Text>
-					</ListGroup.Item>
-					<ListGroup.Item>
-						<Card.Link href="#" className="Menu-item">Papers</Card.Link>
-						<Card.Text className="text-muted">That are out there</Card.Text>
-					</ListGroup.Item>
-					<ListGroup.Item>
-						<Card.Link href="#" className="Menu-item">Photos</Card.Link>
-						<Card.Text className="text-muted">To ease the eyes</Card.Text>
-					</ListGroup.Item>
-					<ListGroup.Item>
-						<Card.Link 
-						href="https://s3.amazonaws.com/chapnickc.github.io/Chad_Chapnick_Resume_2020_27_03.pdf" 
-						target="_blank" 
-						className="Menu-item"
-					>
-							Résumé
-					</Card.Link>
-				</ListGroup.Item>
-			</ListGroup>
+        <ListGroup variant="flush" className="Menu-list">
 
-			<Card.Body>
+          <ListGroup.Item>
+            <Card.Link>
+              <Link to="/projects" className="Menu-item">Projects</Link>
+            </Card.Link>
+            <Card.Text className="text-muted">
+              That might interest you</Card.Text>
+          </ListGroup.Item>
+
+          <ListGroup.Item>
+            <Card.Link href="#" className="Menu-item">
+              Papers
+            </Card.Link>
+            <Card.Text className="text-muted">
+              That are out there</Card.Text>
+          </ListGroup.Item>
+
+          <ListGroup.Item>
+            <Card.Link href="#" className="Menu-item">Photos</Card.Link>
+            <Card.Text className="text-muted">Something to ease the eyes</Card.Text>
+          </ListGroup.Item>
+
+          <ListGroup.Item>
+            <Card.Link 
+            href="https://s3.amazonaws.com/chapnickc.github.io/Chad_Chapnick_Resume_2020_27_03.pdf" 
+            target="_blank" 
+            className="Menu-item">
+            Résumé</Card.Link>
+        </ListGroup.Item>
+
+      </ListGroup>
+
+      <Card.Body>
         <Card.Link href="https://github.com/chapnickc" target="_blank">Github</Card.Link>
-				<Card.Link href="https://www.linkedin.com/in/chadchapnick" target="_blank">Linked In</Card.Link>
-			</Card.Body>
+        <Card.Link href="https://www.linkedin.com/in/chadchapnick" target="_blank">Linked In</Card.Link>
+      </Card.Body>
 
-			<Card.Footer className="text-muted">
-				Made with React <img src={logo} className="App-logo" alt="logo"/> 
-			</Card.Footer>
+      <Card.Footer className="text-muted">
+        Made with React <img src={logo} className="App-logo" alt="logo"/> 
+      </Card.Footer>
 
-		</Card>
-		);
+    </Card>
+    );
 }
-
 };
