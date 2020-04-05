@@ -19,9 +19,13 @@ html, body { background-color: #202020; }
 
 pre, h1 { color: #f0f0f0 }
 
-.card-title { font-size:  calc(20px + 2vmin); color: #f0f0f0; }
+.Main .card-title { font-size:  calc(18px + 2vmin); color: #f0f0f0; }*/
 
-.Project-image { max-width: 100%; }
+.Profile-image { 
+  max-height: 22vh; 
+  display: inline;
+  float: right;
+}
 
 .Main {
   background-color: #1d1d1d;
@@ -42,16 +46,15 @@ pre, h1 { color: #f0f0f0 }
   color: #f0f0f0;
 }
 
-.Menu-full-name a {
+.Menu-full-name {
   font-size:  calc(15px + 2vmin);
   margin-bottom: 0px;
-  color:  #cc4377;
+  color: #4ecca3;
 }
 
-.Menu-full-name a:hover { color:  #CC4E77; text-decoration: none;}
-
+.Menu-full-name:hover { color:  #cc4e77; text-decoration: none;}
 .Menu-item { color: #f0f0f0; } /* #ffc000 */
-.Menu-item:hover { color:  #CC4E77; text-decoration: none;}
+.Menu-item:hover { color:  #cc4e77; text-decoration: none;}
 
 
 
