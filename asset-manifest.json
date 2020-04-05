@@ -1,27 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.4df8c457.chunk.css",
-    "main.js": "/static/js/main.47db8c91.chunk.js",
-    "main.js.map": "/static/js/main.47db8c91.chunk.js.map",
+    "main.css": "/static/css/main.f9904188.chunk.css",
+    "main.js": "/static/js/main.dd988665.chunk.js",
+    "main.js.map": "/static/js/main.dd988665.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c1c4a6ea.js",
     "runtime-main.js.map": "/static/js/runtime-main.c1c4a6ea.js.map",
     "static/css/2.de424728.chunk.css": "/static/css/2.de424728.chunk.css",
-    "static/js/2.7e15f2c5.chunk.js": "/static/js/2.7e15f2c5.chunk.js",
-    "static/js/2.7e15f2c5.chunk.js.map": "/static/js/2.7e15f2c5.chunk.js.map",
+    "static/js/2.baa6043f.chunk.js": "/static/js/2.baa6043f.chunk.js",
+    "static/js/2.baa6043f.chunk.js.map": "/static/js/2.baa6043f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8bb1558b883daf7b1b1c6cb7f1799a9a.js": "/precache-manifest.8bb1558b883daf7b1b1c6cb7f1799a9a.js",
+    "precache-manifest.de36ddc7d0891202de6c206b57b7497f.js": "/precache-manifest.de36ddc7d0891202de6c206b57b7497f.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/static/css/2.de424728.chunk.css.map",
-    "static/css/main.4df8c457.chunk.css.map": "/static/css/main.4df8c457.chunk.css.map",
-    "static/js/2.7e15f2c5.chunk.js.LICENSE.txt": "/static/js/2.7e15f2c5.chunk.js.LICENSE.txt",
+    "static/css/main.f9904188.chunk.css.map": "/static/css/main.f9904188.chunk.css.map",
+    "static/js/2.baa6043f.chunk.js.LICENSE.txt": "/static/js/2.baa6043f.chunk.js.LICENSE.txt",
+    "static/media/EchoRemoval-System.md": "/static/media/EchoRemoval-System.c8587e77.md",
+    "static/media/Edge-Detection.md": "/static/media/Edge-Detection.ba8af1e6.md",
+    "static/media/HPC-Tutorial.md": "/static/media/HPC-Tutorial.ee35137d.md",
+    "static/media/LifeExpectancyAnalysis.md": "/static/media/LifeExpectancyAnalysis.d437cfb6.md",
+    "static/media/iOS-BLE-Monitor.md": "/static/media/iOS-BLE-Monitor.5b8c3215.md",
     "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg",
-    "static/media/nRF51-Firmware.md": "/static/media/nRF51-Firmware.f0265c36.md"
+    "static/media/nRF51-Firmware.md": "/static/media/nRF51-Firmware.f793f69e.md"
   },
   "entrypoints": [
     "static/js/runtime-main.c1c4a6ea.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.7e15f2c5.chunk.js",
-    "static/css/main.4df8c457.chunk.css",
-    "static/js/main.47db8c91.chunk.js"
+    "static/js/2.baa6043f.chunk.js",
+    "static/css/main.f9904188.chunk.css",
+    "static/js/main.dd988665.chunk.js"
   ]
 }
