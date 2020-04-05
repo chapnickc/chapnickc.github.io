@@ -5,6 +5,21 @@ import { Link } from 'react-router-dom';
 import logo from '../logo.svg';
 
 export default class Menu extends React.Component {
+
+  //<ListGroup.Item>
+  //  <Link to="/papers" className="Menu-item">Papers</Link>
+  //  <Card.Text className="text-muted">
+  //    That are out there
+  //  </Card.Text>
+  //</ListGroup.Item>
+  //                                                         
+  //<ListGroup.Item>
+  //  <Link to="/photos" className="Menu-item">Photos</Link>
+  //  <Card.Text className="text-muted">
+  //    Something to ease the eyes
+  //  </Card.Text>
+  //</ListGroup.Item>
+
   render() {
     return (
     <Card className="Menu">
@@ -21,20 +36,7 @@ export default class Menu extends React.Component {
           </Card.Text>
         </ListGroup.Item>
 
-        <ListGroup.Item>
-          <Link to="/papers" className="Menu-item">Papers</Link>
-          <Card.Text className="text-muted">
-            That are out there
-          </Card.Text>
-        </ListGroup.Item>
-
-        <ListGroup.Item>
-          <Link to="/photos" className="Menu-item">Photos</Link>
-          <Card.Text className="text-muted">
-            Something to ease the eyes
-          </Card.Text>
-        </ListGroup.Item>
-
+        
         <ListGroup.Item>
           <Card.Link 
           href="https://s3.amazonaws.com/chapnickc.github.io/Chad_Chapnick_Resume_2020_27_03.pdf" 

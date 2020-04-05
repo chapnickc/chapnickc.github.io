@@ -7,13 +7,11 @@ Repository: [chapnickc/Epilepsy-Monitor-FW](https://github.com/chapnickc/Epileps
 ARM Embedded Project with Makefile build for the BLE Nano from Red Bear Labs.
 
 This repository attempts to follow a basic directory tree organization, 
-with libraries in `lib`,  source code in `src`, 
-tests in `test`, etc. 
+with libraries in `lib`,  source code in `src`, tests in `test`, etc. 
 The `analysis` subdirectory currently consists of code for preliminary data processing. 
 The `write` directory contains some TeX code for drawing circuit diagrams. 
 The `tools` directory contains the [GNU ARM Embedded Toolchain](https://launchpad.net/gcc-arm-embedded) needed 
 to compile code for ARM processor used in this project. The toolcahin version is 4.9-2015-q3. 
-I have attempted to use later versions, but have run into some issues. 
 
 ## Source Code
 The code running on the ARM proccessor is C++. 

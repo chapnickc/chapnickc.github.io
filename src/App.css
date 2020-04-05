@@ -27,22 +27,32 @@ pre, h1 { color: #f0f0f0 }
   float: right;
 }
 
+.Project-image {
+    max-width: 100%;
+    max-height: 50vh;
+}
+
 .Main {
-  background-color: #1d1d1d;
+  background-color: #171717;
   color: #f0f0f0;
   margin-bottom: 5vh;
-  box-shadow: 0 1em 1em 0 rgba(0, 0, 0, 0.2), 0 1.5em 1em 0 rgba(0, 0, 0, 0.19);
+  /*box-shadow: 0 1em 1em 0 rgba(0, 0, 0, 0.2), 0.1em 1.5em 1em 0 rgba(0, 0, 0, 0.19);*/
+  box-shadow: 0.5em .75em 2em 0 rgba(0, 0, 0, 0.2);
+}
+
+.Main:hover {
+  box-shadow: 0.5em .75em 2em 0 rgba(0, 0, 0, 0.3);
 }
 
 .Menu {
-  background-color: #1d1d1d;
+  background-color: #171717;
   color: #f0f0f0;
   margin-bottom: 5vh;
   box-shadow: 0 1em 1em 0 rgba(0, 0, 0, 0.2), 0 1.5em 1em 0 rgba(0, 0, 0, 0.19);
 }
 
 .Menu > .card, .list-group, .list-group-item {
-  background-color: #1d1d1d;
+  background-color: #171717;
   color: #f0f0f0;
 }
 

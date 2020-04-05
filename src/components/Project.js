@@ -9,6 +9,7 @@ export default class Project extends React.Component {
     this.title=props.title;
     this.fname=props.fname;
     this.image=props.image;
+    this.cutoff = 10;
     this.state = { 
       markdown: null, 
       content: null,
@@ -33,8 +34,8 @@ export default class Project extends React.Component {
     else {
         buttonText = "See More";
         var parts = markdown.split('\n');
-        if (parts.length > 10){
-          content = parts.slice(0, 10).join('\n') + " ...";
+        if (parts.length > this.cutoff){
+          content = parts.slice(0, this.cutoff).join('\n');
         }
     }
     this.setState({
@@ -54,31 +55,42 @@ export default class Project extends React.Component {
         let md = marked(text) 
         var parts = md.split('\n');
         let content = md;
-        if (parts.length > 10){
-          content = parts.slice(0, 10).join('\n') + " ...";
+        if (parts.length > this.cutoff){
+          content = parts.slice(0, this.cutoff).join('\n');
         }
         this.setState({ 
           markdown: md,
           content: content,
-          seeMoreEnabled: parts.length > 10
+          seeMoreEnabled: parts.length > this.cutoff
         })
       })
   }
 
   render(){
+
+    let button = null;
+    if (this.state.seeMoreEnabled)
+      button = (
+      <Button  variant="dark" className="float-right" onClick={() => this.onSeeMore()} >
+          {this.state.buttonText}
+        </Button>);
+
+    let img = null;
+    if (this.image && this.image.length > 0){
+      img = <img className="Project-image" src={"img/"+this.image} alt="logo"/>
+    }
+
     return (
       <Card className="Main">
         <Card.Body>
           <Card.Title>{this.title}</Card.Title>
-          <img className="Project-image" src={"img/"+this.image} alt="logo"/> 
+          {img}
           <br /><br />
           <article dangerouslySetInnerHTML={{__html: this.state.content}}></article>
-          <Button  variant="dark" className="float-right" onClick={() => this.onSeeMore()}>
-            {this.state.buttonText}
-          </Button>
+        {button}
         </Card.Body>
       </Card>
       );
-}
+  }
 
 };
