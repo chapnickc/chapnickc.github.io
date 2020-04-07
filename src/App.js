@@ -13,10 +13,14 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import ReactGA from 'react-ga';
 
 export default function App()
 {
   document.title='chapnickc.github.io';
+
+  const trackingId = "UA-92051034-1"; // Replace with your Google Analytics tracking ID
+  ReactGA.initialize(trackingId);
 
   return (
     <Router>
