@@ -34,6 +34,11 @@ export default class Menu extends React.Component {
           <Card.Text className="text-muted"> 
             That might interest you
           </Card.Text>
+          <Link to="/projects" className="Menu-item">Papers</Link> 
+          <Card.Text className="text-muted"> 
+            That are out there
+          </Card.Text>
+
         </ListGroup.Item>
 
         

@@ -85,8 +85,7 @@ export default class Project extends React.Component {
         <Card.Body>
           <Card.Title>{this.title}</Card.Title>
           {img}
-          <br /><br />
-          <article dangerouslySetInnerHTML={{__html: this.state.content}}></article>
+          <p dangerouslySetInnerHTML={{__html: this.state.content}}></p>
         {button}
         </Card.Body>
       </Card>

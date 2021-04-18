@@ -24,15 +24,12 @@ export default function App()
 
   return (
     <Router>
-
       <Container fluid className="App mt-5 mb-5">
         <Row>
-
-          <Col md={{span: 3, offset: 2}}> 
+          <Col md={{span: 3, offset: 1}}> 
             <Menu/> 
           </Col>
-
-          <Col md={{span: 6, offset: 0}} className="App-main-content">
+          <Col md={{span: 7, offset: 0}} className="App-main-content">
             <Switch>
               <Route path="//">
                 <Welcome />
@@ -40,15 +37,11 @@ export default function App()
               <Route path="/projects">
                 <Projects />
               </Route>
-
             </Switch>
           </Col>
-
         </Row>
       </Container>
-
     </Router>
-
-    );
+  );
 }
 
