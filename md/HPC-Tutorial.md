@@ -129,7 +129,7 @@ commit the changes, and update Kepler's copy when you are ready to execute code.
 
 First, login to Kepler and create a local copy of the directory by entering:
 
-```
+```sh
 git clone https://github.com/chapnickc/HPCJobExample
 ```
 
@@ -147,7 +147,10 @@ code is as follows:
 start=$(date +'%s')
 MATLABPATH="/cm/shared/apps/matlab/R2015a/bin/matlab"
 $MATLABPATH -nodesktop -nosplash -r \
-    "addpath('"$PWD"'); disp(['Added ', '"$PWD"', ' to path']); run myscript.m; exit";
+    "addpath('"$PWD"'); \
+    disp(['Added ', '"$PWD"', ' to path']); \
+    run myscript.m; \
+    exit";
 echo "The job took $(($(date +'%s') - $start)) seconds"
 ```
 
