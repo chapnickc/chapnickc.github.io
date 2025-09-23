@@ -18,7 +18,7 @@ inspired this [genereous individual](https://www.codeconcisely.com/posts/nextjs-
 The trick is transforming the relative paths from markdown into proper html.
 
 {% raw %}
-```js
+```tsx
 <MDXProvider>
       <Markdown
             components={{
