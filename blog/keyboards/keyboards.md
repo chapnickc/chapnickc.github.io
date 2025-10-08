@@ -1,6 +1,6 @@
 ## Keyboards
 
-*Reimagining the 147 year simulacrum*
+*Reimagining the 147 year-old simulacrum*
 
 *Oct 08, 2025*
 
@@ -33,7 +33,7 @@ Below I share the layers I'm experimenting with to give you an idea of how that 
 ![Sweep](/blog/keyboards/sweep.png)
 
 The complete transition takes time, just like playing any other
-instrument. At a current typing speed over 101 WPM, while using advanced
+instrument. At a current typing speed over 101 WPM, and fluency with advanced
 workflow tooling such as vim, tmux and i3—I absolutely demand that velocity be
 matched. It will be well worth the investment and will open new neural pathways 
 and efficiencies in typing.
