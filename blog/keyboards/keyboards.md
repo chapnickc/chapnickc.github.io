@@ -4,11 +4,10 @@
 
 *Oct 08, 2025*
 
-&nbsp;&nbsp;
-
 ---
 
-&nbsp;&nbsp;
+<br />
+
 
 After [147 years](https://en.wikipedia.org/wiki/QWERTY), the contiguous QWERTY layout is
 nothing short of archetypal in the modern typist's mind. Rife with its bias
@@ -29,10 +28,9 @@ exquisite this layout is due to the decidedly minimalist design.
 
 To achieve the functionality of a typical full-sized keyboard these 
 devices rely on layers and complex behaviors.
-
 Below I share the layers I'm experimenting with to give you an idea of how that works.
 
-![Sweep](/blog/keyboards/sweep.jpg)
+![Sweep](/blog/keyboards/sweep.png)
 
 The complete transition takes time, just like playing any other
 instrument. At a current typing speed over 101 WPM, while using advanced
@@ -40,12 +38,11 @@ workflow tooling such as vim, tmux and i3—I absolutely demand that velocity be
 matched. It will be well worth the investment and will open new neural pathways 
 and efficiencies in typing.
 
-
-&nbsp;&nbsp;
+<br />
 
 ---
 
-&nbsp;&nbsp;
+<br />
 
 Now, in the limit keyboards will prove to be a transient input device for
 computing systems. In fact, speech-to-text already achieves higher
@@ -56,7 +53,8 @@ Especially considering the frequency of symbols or the unbounded text manipulati
 In the long run however, I have complete confidence that the traditional keyboard will
 be replaced by more sophisticated input devices. Examples today would include
 [surface electromyography](https://dl.acm.org/doi/10.1145/3172944.3172977),
-gaze-tracking, or other neurolinguistic decoders.
+[gaze tracking](https://dl.acm.org/doi/10.1145/3736250), 
+or other [neurolinguistic decoders](https://www.nature.com/articles/s41586-025-09127-3).
 
 
 
