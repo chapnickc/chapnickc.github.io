@@ -1,7 +1,14 @@
 ## Keyboards
 
-**Reimagining the 147 year simulacrum**
+*Reimagining the 147 year simulacrum*
 
+*Oct 08, 2025*
+
+&nbsp;&nbsp;
+
+---
+
+&nbsp;&nbsp;
 
 After [147 years](https://en.wikipedia.org/wiki/QWERTY), the contiguous QWERTY layout is
 nothing short of archetypal in the modern typist's mind. Rife with its bias
@@ -27,26 +34,29 @@ Below I share the layers I'm experimenting with to give you an idea of how that 
 
 ![Sweep](/blog/keyboards/sweep.jpg)
 
+The complete transition takes time, just like playing any other
+instrument. At a current typing speed over 101 WPM, while using advanced
+workflow tooling such as vim, tmux and i3—I absolutely demand that velocity be
+matched. It will be well worth the investment and will open new neural pathways 
+and efficiencies in typing.
+
+
+&nbsp;&nbsp;
+
+---
+
+&nbsp;&nbsp;
+
 Now, in the limit keyboards will prove to be a transient input device for
-computing systems. In fact, speech-to-text systems already achieve higher
+computing systems. In fact, speech-to-text already achieves higher
 bandwidth and fidelity when compared to average typing speed. Nearly 3x higher
 at 150 words per minute (WPM), compared to a measly 33 WPM on the keyboard.
-
 When it comes to writing software, keyboards are still quite practical.
-Especially considering the frequency of symbols in addition to alphanumeric characters 
-or the unbounded text manipulation that takes place.
-
-The complete transition takes time, just like playing any other
-instrument. With a current typing speed over 101 WPM while using advanced
-workflow tooling such as vim, tmux and i3—I absolutely demand that velocity be
-matched. It will be well worth the investment, opening new neural pathways 
-for the world of typing.
-
-
-In the long run, I have complete confidence that the traditional keyboard will
+Especially considering the frequency of symbols or the unbounded text manipulation that takes place.
+In the long run however, I have complete confidence that the traditional keyboard will
 be replaced by more sophisticated input devices. Examples today would include
 [surface electromyography](https://dl.acm.org/doi/10.1145/3172944.3172977),
-gaze-tracking systems, or other neurolinguistic decoders.
+gaze-tracking, or other neurolinguistic decoders.
 
 
 
